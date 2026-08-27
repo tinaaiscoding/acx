@@ -376,33 +376,23 @@
   --_theme---button-primary--background: var(--color--brand-main);
   --_theme---button-primary--border: var(--color--brand-main);
   --_theme---button-primary--text: var(--color--brand-light);
-  --_theme---button-primary--background-hover: var(--color--brand-dark);
-  --_theme---button-primary--border-hover: var(--color--brand-dark);
-  --_theme---button-primary--text-hover: var(--color--brand-light);
-
-  --_theme---button-secondary--background: var(--color--transparent);
-  --_theme---button-secondary--border: var(--color--dark-faded);
-  --_theme---button-secondary--text: var(--color--brand-dark);
-  --_theme---button-secondary--background-hover: var(--color--brand-dark);
-  --_theme---button-secondary--border-hover: var(--color--brand-dark);
-  --_theme---button-secondary--text-hover: var(--color--brand-light);
-}
-
-/** Dark theme buttons **/
-.dark {
-  --_theme---button-primary--background: var(--color--brand-main);
-  --_theme---button-primary--border: var(--color--brand-main);
-  --_theme---button-primary--text: var(--color--brand-light);
   --_theme---button-primary--background-hover: var(--color--brand-light);
   --_theme---button-primary--border-hover: var(--color--brand-light);
-  --_theme---button-primary--text-hover: var(--color--brand-dark);
+  --_theme---button-primary--text-hover: var(--color--dark);
 
-  --_theme---button-secondary--background: var(--color--transparent);
-  --_theme---button-secondary--border: var(--color--light-faded);
-  --_theme---button-secondary--text: var(--color--brand-light);
-  --_theme---button-secondary--background-hover: var(--color--brand-light);
-  --_theme---button-secondary--border-hover: var(--color--brand-light);
-  --_theme---button-secondary--text-hover: var(--color--brand-dark);
+  --_theme---button-secondary--background: var(--color--brand-light);
+  --_theme---button-secondary--border: var(--color--dark);
+  --_theme---button-secondary--text: var(--color--dark);
+  --_theme---button-secondary--background-hover: var(--color--brand-main);
+  --_theme---button-secondary--border-hover: var(--color--brand-main);
+  --_theme---button-secondary--text-hover: var(--color--light);
+
+  --_theme---button-transparent--background: var(--color--transparent);
+  --_theme---button-transparent--border: var(--color--dark);
+  --_theme---button-transparent--text: var(--color--dark);
+  --_theme---button-transparent--background-hover: var(--color--brand-main);
+  --_theme---button-transparent--border-hover: var(--color--brand-main);
+  --_theme---button-transparent--text-hover: var(--color--light);
 }
 
 /* ==============================================================

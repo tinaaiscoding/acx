@@ -1,18 +1,20 @@
 import type { Metadata } from 'next';
 import { Be_Vietnam_Pro, Inter } from 'next/font/google';
 
-import './globals.css';
+import './styles/globals.css';
 
 const beVietnamProSans = Be_Vietnam_Pro({
   variable: '--font-beVietnamPro-sans',
   subsets: ['latin'],
   style: 'normal',
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  fallback: ['system-ui', 'Arial', 'sans-serif'], 
 });
 
 const interSans = Inter({
   variable: '--font-inter-sans',
   subsets: ['latin'],
+  fallback: ['system-ui', 'Arial', 'sans-serif'], 
 });
 
 const fonts = `${beVietnamProSans.variable} ${interSans.variable}`;

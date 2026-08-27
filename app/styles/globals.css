@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import './utilities.css';
 @import './variables.css';
+@import './components.css';
 
 /* Dark mode using class strategy */
 @custom-variant dark (&:where(.dark, .dark *));
@@ -27,8 +28,8 @@
   --color-transparent: var(--color--transparent);
 
   /* Font Families */
-  --font-primary: var(--_typography---font--primary-family), sans-serif;
-  --font-secondary: var(--_typography---font--secondary-family), sans-serif;
+  --font-primary: var(--_typography---font-family--primary), sans-serif;
+  --font-secondary: var(--_typography---font-family--secondary), sans-serif;
 
   /* Fluid Spacing Scale*/
   --spacing-fl-0: var(--size--0rem);
@@ -106,9 +107,35 @@
 body {
   background: var(--_theme---background);
   color: var(--_theme---text);
-  font-family: var(--_typography---font--secondary-family);
-  font-weight: 500;
+  font-family: var(--_typography---font-family--secondary);
+
   transition:
     background 0.3s,
     color 0.3s;
+
+  /* Default style for text */
+  --_text-style---font-family: var(--_typography---font-family--text-main);
+  --_text-style---font-size: var(--_typography---font-size--text-main);
+  --_text-style---font-weight: var(--_typography---font-weight--text-main);
+  --_text-style---line-height: var(--_typography---line-height--text-main);
+  --_text-style---letter-spacing: var(
+    --_typography---letter-spacing--text-main
+  );
+
+  --_text-style---trim-top: var(--_typography---trim-top--text-main);
+  --_text-style---trim-bottom: var(--_typography---trim-bottom--text-main);
+  --_text-style---margin-top: var(--_spacing---space--4);
+  --_text-style---margin-bottom: var(--_spacing---space--4);
+
+  font-family: var(--_text-style---font-family);
+  font-size: var(--_text-style---font-size);
+  font-weight: var(--_text-style---font-weight);
+  line-height: var(--_text-style---line-height);
+  letter-spacing: var(--_text-style---letter-spacing);
+  text-wrap: pretty;
+  display: flow-root;
+}
+
+#navbar {
+  position: sticky;
 }
