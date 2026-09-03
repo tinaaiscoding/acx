@@ -1,9 +1,9 @@
-import ContactForm from './ContactForm';
 import NavigationLinks from '../NavigationLinks';
+import ContactForm from './ContactForm';
 
 const Footer = () => {
   return (
-    <footer id='contact-section' className='h-[837px] py-14'>
+    <footer id='contact-section' className='u-container h-[837px] py-14'>
       <div className='flex h-full justify-between'>
         <div className='flex h-full flex-1 flex-col justify-between'>
           <div className='flex flex-col gap-10'>
