@@ -1,5 +1,5 @@
-import NavigationLinks from '../navigationLinks/NavigationLinks';
-import SmoothScrollButton from '../smoothScrollButton/SmoothScrollButton';
+import NavigationLinks from './NavigationLinks';
+import SmoothScrollButton from './SmoothScrollButton';
 
 const NavigationBar = () => {
   return (

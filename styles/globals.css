@@ -9,18 +9,24 @@
 /* Tailwind Theme Configuration */
 @theme {
   /* Border Radius */
+
+  /* usage:
+    rounded-sm
+  */
   --radius-sm: var(--radius--small);
-  --radius-DEFAULT: var(--radius--main);
+  --radius-main: var(--radius--main);
   --radius-full: var(--radius--round);
 
   /* Border Width */
   --border-width-DEFAULT: var(--border-width--main);
 
   /* Color Palette */
+  /* usage:
+    bg-brand-main
+    text-brand-main
+  */
   --color-brand-main: var(--color--brand-main);
-  --color-brand-dark: var(--color--brand-dark);
   --color-brand-light: var(--color--brand-light);
-  --color-brand-secondary: var(--color--brand-secondary);
   --color-dark: var(--color--dark);
   --color-dark-faded: var(--color--dark-faded);
   --color-light: var(--color--light);
@@ -32,6 +38,11 @@
   --font-secondary: var(--_typography---font-family--secondary), sans-serif;
 
   /* Fluid Spacing Scale*/
+
+  /* usage:
+    p-fl-0
+    m-fl-0
+  */
   --spacing-fl-0: var(--size--0rem);
   --spacing-fl-0\.125: var(--size--0-125rem);
   --spacing-fl-0\.25: var(--size--0-25rem);
@@ -134,8 +145,4 @@ body {
   letter-spacing: var(--_text-style---letter-spacing);
   text-wrap: pretty;
   display: flow-root;
-}
-
-#navbar {
-  position: sticky;
 }

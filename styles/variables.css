@@ -375,9 +375,9 @@
 :root {
   --_theme---button-primary--background: var(--color--brand-main);
   --_theme---button-primary--border: var(--color--brand-main);
-  --_theme---button-primary--text: var(--color--brand-light);
-  --_theme---button-primary--background-hover: var(--color--brand-light);
-  --_theme---button-primary--border-hover: var(--color--brand-light);
+  --_theme---button-primary--text: var(--color--light);
+  --_theme---button-primary--background-hover: var(--color--light);
+  --_theme---button-primary--border-hover: var(--color--dark);
   --_theme---button-primary--text-hover: var(--color--dark);
 
   --_theme---button-secondary--background: var(--color--brand-light);
@@ -400,7 +400,7 @@
   ============================================================== */
 :root {
   --radius--small: 0.5rem;
-  --radius--main: 1rem;
+  --radius--main: 1.25rem;
   --radius--round: 100vw;
 
   --border-width--main: 0.0625rem;

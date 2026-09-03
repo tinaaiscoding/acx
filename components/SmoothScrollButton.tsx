@@ -19,7 +19,7 @@ export default function SmoothScrollButton({ name, section }: Props) {
   return (
     <button
       onClick={handleScroll}
-      className='btn-transparent rounded px-4 py-2 text-white hover:bg-blue-700'
+      className='btn-transparent'
     >
       {name}
     </button>
