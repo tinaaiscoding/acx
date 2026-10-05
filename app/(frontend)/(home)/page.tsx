@@ -1,3 +1,4 @@
+import CallToAction from './components/CallToAction';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Solutions from './components/Solutions';
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Services />
       <Solutions />
+      <CallToAction />
     </main>
   );
 };
