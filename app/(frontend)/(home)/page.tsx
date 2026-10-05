@@ -1,12 +1,14 @@
 import Hero from './components/Hero';
+import Services from './components/Services';
 
 Hero;
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Hero />
-    </div>
+      <Services />
+    </main>
   );
 };
 
