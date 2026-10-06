@@ -1,5 +1,9 @@
+import Hero from "./components/Hero";
+
 const GreenPower = () => {
-  return <div>GreenPower</div>;
+  return <main>
+    <Hero />
+  </main>;
 };
 
 export default GreenPower;
