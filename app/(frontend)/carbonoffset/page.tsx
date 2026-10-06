@@ -1,5 +1,11 @@
+import Projects from './components/Projects';
+
 const CarbonOffset = () => {
-  return <div>CarbonOffset</div>;
+  return (
+    <main className='bg-brand-main'>
+      <Projects />
+    </main>
+  );
 };
 
 export default CarbonOffset;
