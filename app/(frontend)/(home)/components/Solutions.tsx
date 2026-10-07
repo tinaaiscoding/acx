@@ -12,13 +12,13 @@ const Solutions = () => {
           </div>
 
           <div className='flex flex-col gap-(--size--2-5rem)'>
-            <div className='flex flex-col items-start gap-(--size--2-5rem) bg-brand-light rounded-main p-fl-2.5'>
+            <div className='bg-brand-light rounded-main p-fl-2.5 flex flex-col items-start gap-(--size--2-5rem)'>
               <div className='flex flex-col gap-(--size--1-5rem)'>
                 <p className='u-text-style-h4'>
                   Discover how we help organisations transition towards cleaner
                   energy.
                 </p>
-                <p className='u-text-style-main'>
+                <p>
                   Access accredited GreenPower solutions that support renewable
                   energy generation and help organisations reduce the
                   environmental impact of their electricity usage.
@@ -28,13 +28,15 @@ const Solutions = () => {
               <button className='btn-primary'>Learn More</button>
             </div>
 
-            <div className='flex flex-col items-start gap-(--size--2-5rem) bg-brand-light rounded-main p-fl-2.5'>
+            <div className='bg-brand-light rounded-main p-fl-2.5 flex flex-col items-start gap-(--size--2-5rem)'>
               <div className='flex flex-col gap-(--size--1-5rem)'>
                 <p className='u-text-style-h4'>
                   See how leading companies are addressing their carbon impact.
                 </p>
-                <p className='u-text-style-main'>
-                 Invest in accredited carbon offset projects from Australian and international sources to help organisations address emissions and improve environmental outcomes.
+                <p>
+                  Invest in accredited carbon offset projects from Australian
+                  and international sources to help organisations address
+                  emissions and improve environmental outcomes.
                 </p>
               </div>
 

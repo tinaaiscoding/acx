@@ -10,7 +10,12 @@ const Process = () => {
           <div className='flex justify-between'>
             <h2 className='u-text-style-h1'>Understanding GreenPower</h2>
 
-            <Image src={accreditationLogo} width={318} height={108} alt='GreenPower Renewable Electricity accreditation logo'></Image>
+            <Image
+              src={accreditationLogo}
+              width={318}
+              height={108}
+              alt='GreenPower Renewable Electricity accreditation logo'
+            ></Image>
           </div>
 
           <div className='flex justify-between gap-(--size--5rem)'>
@@ -22,7 +27,7 @@ const Process = () => {
                 </h3>
               </div>
 
-              <p className='u-text-style-main'>
+              <p>
                 Large Scale Generation Certificates (LGCs) are purchased from
                 renewable energy generators accredited under the national
                 GreenPower program.
@@ -36,7 +41,7 @@ const Process = () => {
                   Renewable Energy Is Supported
                 </h3>
               </div>
-              <p className='u-text-style-main'>
+              <p>
                 Purchasing these certificates provides additional funding that
                 helps renewable energy generators continue supplying electricity
                 to the national grid.
@@ -51,7 +56,7 @@ const Process = () => {
                 </h3>
               </div>
 
-              <p className='u-text-style-main'>
+              <p>
                 Certificate prices are determined by market forces, helping
                 ensure renewable energy remains economically viable while
                 delivering competitive pricing for organisations.

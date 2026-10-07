@@ -19,7 +19,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className='flex justify-between'>
+          <div className='text-light flex justify-between'>
             <div className='rounded-main relative h-[494px] w-[390px] overflow-hidden'>
               <div className='absolute inset-0 z-10 bg-gradient-to-b from-[#034F3A]/0 from-[37%] to-[#09211B]/100 to-[100%]'></div>
 
@@ -33,10 +33,8 @@ const Services = () => {
               />
 
               <div className='p-fl-2 relative z-20 flex h-full flex-col justify-end gap-(--size--1-5rem)'>
-                <p className='u-text-style-h4 text-light'>
-                  Reduce Compliance Costs
-                </p>
-                <p className='u-text-style-main text-light'>
+                <p className='u-text-style-h4'>Reduce Compliance Costs</p>
+                <p>
                   Flexible GreenPower solutions designed to help lower the cost
                   of meeting environmental obligations.
                 </p>
@@ -56,16 +54,14 @@ const Services = () => {
               />
 
               <div className='p-fl-2 relative z-20 flex h-full flex-col justify-end gap-(--size--1-5rem)'>
-                <p className='u-text-style-h4 text-light'>
-                  Meet Sustainability Goals
-                </p>
-                <p className='u-text-style-main text-light'>
+                <p className='u-text-style-h4'>Meet Sustainability Goals</p>
+                <p>
                   Support your organisation's environmental commitments with
                   accredited renewable energy and carbon offsets.
                 </p>
               </div>
             </div>
-            
+
             <div className='rounded-main relative h-[494px] w-[390px] overflow-hidden'>
               <div className='absolute inset-0 z-10 bg-gradient-to-b from-[#034F3A]/0 from-[37%] to-[#09211B]/100 to-[100%]'></div>
 
@@ -79,10 +75,8 @@ const Services = () => {
               />
 
               <div className='p-fl-2 relative z-20 flex h-full flex-col justify-end gap-(--size--1-5rem)'>
-                <p className='u-text-style-h4 text-light'>
-                  Dedicated Expertise
-                </p>
-                <p className='u-text-style-main text-light'>
+                <p className='u-text-style-h4'>Dedicated Expertise</p>
+                <p>
                   Work with a knowledgeable team that provides personalised
                   advice and ongoing support.
                 </p>

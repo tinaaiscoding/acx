@@ -15,23 +15,22 @@ const CallToAction = () => {
           fill
           sizes='100vw'
           className='object-cover'
-          
         />
       </div>
 
-      <div className='u-container py-section-main'>
-        <div className='flex flex-col items-center gap-(--size--3-5rem) p-fl-5'>
+      <div className='u-container py-section-main text-light'>
+        <div className='p-fl-5 flex flex-col items-center gap-(--size--3-5rem)'>
           <div className='flex w-[771px] flex-col gap-(--size--2rem) text-center'>
-            <h2 className='u-text-style-h1 text-light'>
+            <h2 className='u-text-style-h1'>
               Powering a sustainable future for your business
             </h2>
-            <p className='u-text-style-main text-light'>
+            <p>
               Whether you're looking to reduce emissions, improve energy
               efficiency or accelerate your sustainability goals, our experts
               are ready to help you build a cleaner, more resilient future.
             </p>
           </div>
-          <button className='btn-secondary'>Contact Us</button>
+          <button className='btn-secondary'>Contact Now</button>
         </div>
       </div>
     </section>

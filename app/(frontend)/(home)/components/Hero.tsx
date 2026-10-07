@@ -11,23 +11,23 @@ const Hero = () => {
           src={bgImage}
           alt='three windmills in an open, yellow flower field'
           placeholder='blur'
-          quality={100} 
+          quality={100}
           fill
           sizes='100vw'
           className='object-cover'
         />
       </div>
 
-      <div className='u-container pb-section-large flex min-h-svh flex-col'>
+      <div className='u-container pb-section-large text-light flex min-h-svh flex-col'>
         <div className='flex grow items-end justify-between'>
           <div>
-            <h1 className='u-text-style-display w-col-m-7 text-light'>
+            <h1 className='u-text-style-display w-col-m-7'>
               Leading Decoupled GreenPower Solutions
             </h1>
           </div>
 
           <div>
-            <p className='u-text-style-main w-col-m-4 text-light'>
+            <p className='w-col-m-4'>
               Reduce compliance costs and support your sustainability goals with
               Australia's leading provider of decoupled GreenPower and
               accredited carbon offsets.

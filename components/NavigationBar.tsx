@@ -15,7 +15,7 @@ const NavigationBar = () => {
 
             <div className='justify-self-end'>
               <SmoothScrollButton
-                name='Contact Now'
+                name='Contact Us'
                 section='contact-section'
               />
             </div>

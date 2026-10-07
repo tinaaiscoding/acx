@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
 
           <div className='w-[637px]'>
-            <p className='u-text-style-main'>
+            <p>
               Embedded network customers find it particularly convenient as
               there is no need for their electricity retailer to have a specific
               GreenPower product.
