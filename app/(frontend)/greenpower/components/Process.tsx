@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import accreditationLogo from '@/public/images/greenpower_accreditation_logo.png';
+import accreditationLogo from '@/public/images/greenpower-accreditation-logo.png';
 
 const Process = () => {
   return (

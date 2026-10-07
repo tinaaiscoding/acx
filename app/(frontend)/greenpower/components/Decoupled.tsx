@@ -1,7 +1,7 @@
 const Decoupled = () => {
   return (
-    <section>
-      <div className='u-container py-section-main h-[872px]'>
+    <section className='h-[872px]'>
+      <div className='u-container py-section-main h-full'>
         <div className='flex h-full gap-(--size--6rem)'>
           <div className='flex flex-1 flex-col justify-between'>
             <div>
