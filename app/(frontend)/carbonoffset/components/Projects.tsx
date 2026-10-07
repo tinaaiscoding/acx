@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section>
       <div className='u-container py-section-main'>
-        <div className='flex flex-col'>
+        <div>
           <div className='my-fl-6 flex flex-col gap-(--size--2rem)'>
             <h2 className='u-text-style-main text-light uppercase'>
               Carbon Offset
