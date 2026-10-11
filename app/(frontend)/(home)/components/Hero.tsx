@@ -4,8 +4,8 @@ import bgImage from '@/public/images/home-hero.jpg';
 
 const Hero = () => {
   return (
-    <section>
-      <div className='absolute inset-x-0 top-0 -z-10 min-h-svh'>
+    <section id='home-hero'>
+      <div id='home-hero-background' className='absolute inset-x-0 top-0 -z-10 min-h-svh'>
         <div className='absolute inset-0 z-1 bg-gradient-to-b from-[#034F3A]/13 from-[62%] to-[#09211B]/85 to-[88%]'></div>
         <Image
           src={bgImage}
@@ -18,7 +18,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className='u-container pb-section-large text-light flex min-h-svh flex-col'>
+      <div id='home-hero-content' className='u-container pb-section-large text-light flex min-h-svh flex-col'>
         <div className='flex grow items-end justify-between'>
           <div>
             <h1 className='u-text-style-display w-col-m-7'>

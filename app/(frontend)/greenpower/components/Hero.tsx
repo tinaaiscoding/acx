@@ -4,8 +4,8 @@ import bgImage from '@/public/images/greenpower-hero.jpg';
 
 const Hero = () => {
   return (
-    <section>
-      <div className='absolute inset-x-0 top-0 -z-10 min-h-[calc(100svh_*_1.20)]'>
+    <section id='greenpower-hero'>
+      <div  id='greenpower-hero-background' className='absolute inset-x-0 top-0 -z-10 min-h-[calc(100svh_*_1.20)]'>
         <Image
           src={bgImage}
           alt='three windmills in an open, yellow flower field'
@@ -17,7 +17,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className='u-container pb-section-large text-light flex min-h-[calc(100svh_*_1.20)] flex-col'>
+      <div id='greenpower-hero-content' className='u-container pb-section-large text-light flex min-h-[calc(100svh_*_1.20)] flex-col'>
         <div className='flex h-svh flex-col items-center justify-center gap-(--size--4-5rem) text-center'>
           <div className='w-[854px]'>
             <h1 className='u-text-style-display'>

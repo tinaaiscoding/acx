@@ -7,7 +7,7 @@ Hero;
 
 const Home = () => {
   return (
-    <main>
+    <main id='home'>
       <Hero />
       <Services />
       <Solutions />

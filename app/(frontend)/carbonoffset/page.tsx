@@ -2,7 +2,7 @@ import Projects from './components/Projects';
 
 const CarbonOffset = () => {
   return (
-    <main className='bg-brand-main'>
+    <main id='carbon-offset' className='bg-brand-main'>
       <Projects />
     </main>
   );

@@ -1,9 +1,12 @@
 const Solutions = () => {
   return (
-    <section>
+    <section id='home-solutions'>
       <div className='u-container py-section-main'>
         <div className='flex gap-(--size--4rem)'>
-          <div className='flex flex-col gap-(--size--2rem)'>
+          <div
+            id='home-solutions-heading'
+            className='flex flex-col gap-(--size--2rem)'
+          >
             <h2 className='u-text-style-main uppercase'>Our Solutions</h2>
 
             <p className='u-text-style-h1 !text-wrap'>
@@ -11,7 +14,10 @@ const Solutions = () => {
             </p>
           </div>
 
-          <div className='flex flex-col gap-(--size--2-5rem)'>
+          <div
+            id='home-solutions-cards'
+            className='flex flex-col gap-(--size--2-5rem)'
+          >
             <div className='bg-brand-light rounded-main p-fl-2.5 flex flex-col items-start gap-(--size--2-5rem)'>
               <div className='flex flex-col gap-(--size--1-5rem)'>
                 <p className='u-text-style-h4'>

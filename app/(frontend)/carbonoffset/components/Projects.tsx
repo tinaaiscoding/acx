@@ -6,7 +6,7 @@ import Project from './Project';
 
 const Projects = () => {
   return (
-    <section>
+    <section id='carbon-offset-projects'>
       <div className='u-container py-section-main'>
         <div>
           <div className='my-fl-6 flex flex-col gap-(--size--2rem)'>
@@ -20,7 +20,10 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className='flex flex-col gap-(--size--3rem)'>
+          <div
+            id='carbon-offset-projects-cards'
+            className='flex flex-col gap-(--size--3rem)'
+          >
             <Project
               image={projectImage1}
               grade='compliance grade'

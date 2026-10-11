@@ -1,9 +1,12 @@
 const Decoupled = () => {
   return (
-    <section className='h-[872px]'>
+    <section id='greenpower-decoupled' className='h-[872px]'>
       <div className='u-container py-section-main h-full'>
         <div className='flex h-full gap-(--size--6rem)'>
-          <div className='flex flex-1 flex-col justify-between'>
+          <div
+            id='greenpower-decoupled-heading'
+            className='flex flex-1 flex-col justify-between'
+          >
             <div>
               <p className='mb-fl-2 uppercase'>Decoupled Source</p>
               <h2 className='u-text-style-h1'>
@@ -21,7 +24,10 @@ const Decoupled = () => {
             </p>
           </div>
 
-          <div className='flex flex-1 flex-col justify-end'>
+          <div
+            id='greenpower-decoupled-cards'
+            className='flex flex-1 flex-col justify-end'
+          >
             <div className='grid grid-cols-2 gap-(--size--1-25rem)'>
               <div className='rounded-main bg-brand-light p-fl-2 flex h-[193px] flex-col justify-end'>
                 <p className='u-text-style-display mb-fl-1'>34</p>

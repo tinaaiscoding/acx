@@ -4,10 +4,10 @@ import accreditationLogo from '@/public/images/greenpower-accreditation-logo.png
 
 const Process = () => {
   return (
-    <section className='bg-brand-main text-light'>
+    <section id='greenpower-process' className='bg-brand-main text-light'>
       <div className='u-container py-section-main'>
         <div className='flex flex-col gap-(--size--10rem)'>
-          <div className='flex justify-between'>
+          <div id='greenpower-process-heading' className='flex justify-between'>
             <h2 className='u-text-style-h1'>Understanding GreenPower</h2>
 
             <Image
@@ -18,7 +18,7 @@ const Process = () => {
             ></Image>
           </div>
 
-          <div className='flex justify-between gap-(--size--5rem)'>
+          <div id='greenpower-process-content' className='flex justify-between gap-(--size--5rem)'>
             <div className='flex flex-1 flex-col gap-(--size--3-5rem)'>
               <div>
                 <p className='u-text-style-h4 mb-fl-1'>1.</p>

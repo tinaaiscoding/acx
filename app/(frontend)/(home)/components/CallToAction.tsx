@@ -4,7 +4,7 @@ import bgImage from '@/public/images/home-cta.jpg';
 
 const CallToAction = () => {
   return (
-    <section className='relative'>
+    <section id='home-call-to-action' className='relative'>
       <div className='absolute inset-x-0 top-0 -z-10 min-h-full'>
         <div className='absolute inset-0 z-1 bg-gradient-to-t from-[#09211B] from-[50%] to-[#034F3A]/[13%] to-[100%] opacity-[68%]'></div>
         <Image
@@ -18,7 +18,10 @@ const CallToAction = () => {
         />
       </div>
 
-      <div className='u-container py-section-main text-light'>
+      <div
+        id='home-call-to-action-content'
+        className='u-container py-section-main text-light'
+      >
         <div className='p-fl-5 flex flex-col items-center gap-(--size--3-5rem)'>
           <div className='flex w-[771px] flex-col gap-(--size--2rem) text-center'>
             <h2 className='u-text-style-h1'>

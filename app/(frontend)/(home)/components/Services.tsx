@@ -6,10 +6,13 @@ import cardImage3 from '@/public/images/home-card3.jpg';
 
 const Services = () => {
   return (
-    <section>
+    <section id='home-services'>
       <div className='u-container py-section-main'>
         <div className='flex flex-col gap-(--size--5rem)'>
-          <div className='flex flex-col gap-(--size--2rem)'>
+          <div
+            id='home-services-heading'
+            className='flex flex-col gap-(--size--2rem)'
+          >
             <h2 className='u-text-style-main uppercase'>What we do</h2>
 
             <p className='u-text-style-h3 !text-wrap'>
@@ -19,7 +22,10 @@ const Services = () => {
             </p>
           </div>
 
-          <div className='text-light flex justify-between'>
+          <div
+            id='home-services-cards'
+            className='text-light flex justify-between'
+          >
             <div className='rounded-main relative h-[494px] w-[390px] overflow-hidden'>
               <div className='absolute inset-0 z-10 bg-gradient-to-b from-[#034F3A]/0 from-[37%] to-[#09211B]/100 to-[100%]'></div>
 
