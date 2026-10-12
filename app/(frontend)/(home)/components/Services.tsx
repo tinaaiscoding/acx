@@ -21,7 +21,7 @@ const Services = () => {
 
           <div
             id='home-services-cards'
-            className='text-light flex justify-between'
+            className='text-light flex justify-between gap-(--size--1rem)'
           >
             <div className='rounded-main relative h-[494px] w-[390px] overflow-hidden'>
               <div className='absolute inset-0 z-10 bg-gradient-to-b from-[#034F3A]/0 from-[37%] to-[#09211B]/100 to-[100%]'></div>
