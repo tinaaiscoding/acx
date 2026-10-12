@@ -9,11 +9,8 @@ const Services = () => {
     <section id='home-services'>
       <div className='u-container py-section-main'>
         <div className='flex flex-col gap-(--size--5rem)'>
-          <div
-            id='home-services-heading'
-            className='flex flex-col gap-(--size--2rem)'
-          >
-            <h2 className='u-text-style-main uppercase'>What we do</h2>
+          <div id='home-services-heading'>
+            <h2 className='u-text-style-main mb-fl-2 uppercase'>What we do</h2>
 
             <p className='u-text-style-h3 !text-wrap'>
               Our tailored GreenPower and carbon offset solutions help

@@ -3,10 +3,10 @@ import ContactForm from './ContactForm';
 
 const Footer = () => {
   return (
-    <footer id='contact-section' className='u-container h-[837px] py-14'>
+    <footer id='contact-section' className='u-container h-[837px] py-fl-3.5'>
       <div className='flex h-full justify-between'>
         <div className='flex h-full flex-1 flex-col justify-between'>
-          <div className='flex flex-col gap-10'>
+          <div className='flex flex-col gap-(--size--2-5rem)'>
             <div>logo</div>
 
             <p>

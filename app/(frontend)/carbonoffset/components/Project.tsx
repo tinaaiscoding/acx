@@ -9,23 +9,23 @@ type Props = {
 
 const Project = ({ image, grade, name, text }: Props) => {
   return (
-    <div className="bg-brand-light rounded-main p-fl-2.5 flex gap-(--size--2-5rem)">
-      <div className="rounded-main relative h-[371px] min-w-[504px] overflow-hidden">
+    <div className='bg-brand-light rounded-main p-fl-2.5 flex gap-(--size--2-5rem)'>
+      <div className='rounded-main relative h-[371px] min-w-[504px] overflow-hidden'>
         <Image
           src={image}
           alt={name}
-          placeholder="blur"
+          placeholder='blur'
           quality={100}
           fill
           className='object-cover'
         />
       </div>
 
-      <div className="flex flex-col gap-(--size--2rem)">
-        <div className="flex flex-col gap-(--size--1-5rem)">
-          <p className="u-text-style-main uppercase">{grade}</p>
+      <div>
+        <div className='mb-fl-2'>
+          <p className='u-text-style-main mb-fl-1.5 uppercase'>{grade}</p>
 
-          <h3 className="u-text-style-h4">{name}</h3>
+          <h3 className='u-text-style-h4'>{name}</h3>
         </div>
 
         <div className='flex flex-col gap-(--size--2rem)'>{text}</div>
@@ -33,6 +33,5 @@ const Project = ({ image, grade, name, text }: Props) => {
     </div>
   );
 };
-
 
 export default Project;

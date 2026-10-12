@@ -9,8 +9,8 @@ const Projects = () => {
     <section id='carbon-offset-projects'>
       <div className='u-container py-section-main'>
         <div>
-          <div className='my-fl-6 flex flex-col gap-(--size--2rem)'>
-            <h2 className='u-text-style-main text-light uppercase'>
+          <div className='my-fl-6'>
+            <h2 className='u-text-style-main text-light uppercase mb-fl-2'>
               Carbon Offset
             </h2>
 

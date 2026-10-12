@@ -3,11 +3,10 @@ const Solutions = () => {
     <section id='home-solutions'>
       <div className='u-container py-section-main'>
         <div className='flex gap-(--size--4rem)'>
-          <div
-            id='home-solutions-heading'
-            className='flex flex-col gap-(--size--2rem)'
-          >
-            <h2 className='u-text-style-main uppercase'>Our Solutions</h2>
+          <div id='home-solutions-heading'>
+            <h2 className='u-text-style-main mb-fl-2 uppercase'>
+              Our Solutions
+            </h2>
 
             <p className='u-text-style-h1 !text-wrap'>
               Supporting Your Sustainability Journey
@@ -19,8 +18,8 @@ const Solutions = () => {
             className='flex flex-col gap-(--size--2-5rem)'
           >
             <div className='bg-brand-light rounded-main p-fl-2.5 flex flex-col items-start gap-(--size--2-5rem)'>
-              <div className='flex flex-col gap-(--size--1-5rem)'>
-                <p className='u-text-style-h4'>
+              <div>
+                <p className='u-text-style-h4 mb-fl-2'>
                   Discover how we help organisations transition towards cleaner
                   energy.
                 </p>
@@ -35,8 +34,8 @@ const Solutions = () => {
             </div>
 
             <div className='bg-brand-light rounded-main p-fl-2.5 flex flex-col items-start gap-(--size--2-5rem)'>
-              <div className='flex flex-col gap-(--size--1-5rem)'>
-                <p className='u-text-style-h4'>
+              <div>
+                <p className='u-text-style-h4 mb-fl-2'>
                   See how leading companies are addressing their carbon impact.
                 </p>
                 <p>

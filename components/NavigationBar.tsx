@@ -6,7 +6,7 @@ const NavigationBar = () => {
     <header>
       <div className='fixed inset-x-0 top-0 z-100'>
         <div className='u-container'>
-          <nav className='bg-light mt-fl-2 grid w-full grid-cols-3 items-center rounded-full px-5 py-2.5'>
+          <nav className='bg-light mt-fl-2 grid w-full grid-cols-3 items-center rounded-full px-fl-1.25 py-fl-0.75'>
             <div>logo</div>
 
             <div className='justify-self-center text-nowrap'>

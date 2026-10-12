@@ -28,50 +28,56 @@ const ContactForm = () => {
 
       <form onSubmit={handleSubmit(onSubmit)} className='h-full'>
         <div className='flex h-full flex-col gap-(--size--2-5rem)'>
-          <div className='flex h-full flex-col gap-5'>
-            <div className='flex gap-5'>
-              <div className='flex flex-col gap-2.5'>
-                <label htmlFor='name' className='u-text-style-small'>
+          <div className='flex h-full flex-col gap-(--size--1-25rem)'>
+            <div className='flex gap-(--size--1-25rem)'>
+              <div>
+                <label htmlFor='name' className='u-text-style-small mb-fl-0.75'>
                   Full Name
                 </label>
                 <input
                   type='text'
                   id='name'
                   placeholder='Full Name'
-                  className='bg-light rounded-main px-6 py-3'
+                  className='bg-light rounded-main px-fl-1.5 py-fl-0.75'
                   {...register('name', { required: true })}
                 />
               </div>
 
-              <div className='flex flex-col gap-2.5'>
-                <label htmlFor='company' className='u-text-style-small'>
+              <div>
+                <label
+                  htmlFor='company'
+                  className='u-text-style-small mb-fl-0.75'
+                >
                   Company
                 </label>
                 <input
                   type='text'
                   id='company'
                   placeholder='Company'
-                  className='bg-light rounded-main px-6 py-3'
+                  className='bg-light rounded-main px-fl-1.5 py-fl-0.75'
                   {...register('company', { required: true })}
                 />
               </div>
             </div>
 
-            <div className='flex flex-col gap-2.5'>
-              <label htmlFor='email' className='u-text-style-small'>
+            <div className='flex flex-col'>
+              <label htmlFor='email' className='u-text-style-small mb-fl-0.75'>
                 Email
               </label>
               <input
                 type='text'
                 id='email'
                 placeholder='example@domain.com'
-                className='bg-light rounded-main px-6 py-3'
+                className='bg-light rounded-main px-fl-1.5 py-fl-0.75'
                 {...register('email', { required: true })}
               />
             </div>
 
-            <div className='flex flex-col gap-2.5'>
-              <label htmlFor='enquiry-type' className='u-text-style-small'>
+            <div className='flex flex-col'>
+              <label
+                htmlFor='enquiry-type'
+                className='u-text-style-small mb-fl-0.75'
+              >
                 Enquiry Type
               </label>
               <select
@@ -79,7 +85,7 @@ const ContactForm = () => {
                 id='enquiry-type'
                 defaultValue=''
                 {...register('enquiryType', { required: true })}
-                className='bg-light rounded-main px-6 py-3 invalid:text-[#7e8981]'
+                className='bg-light rounded-main px-fl-1.5 py-fl-0.75 invalid:text-[#7e8981]'
               >
                 <option value='' disabled hidden>
                   Select a service
@@ -96,15 +102,15 @@ const ContactForm = () => {
               </select>
             </div>
 
-            <div className='flex grow flex-col gap-2.5'>
-              <label htmlFor='email' className='u-text-style-small'>
+            <div className='flex grow flex-col'>
+              <label htmlFor='email' className='u-text-style-small mb-fl-0.75'>
                 Message
               </label>
               <textarea
                 id='message'
                 placeholder='How can we help?'
                 {...register('message', { required: true })}
-                className='bg-light rounded-main grow resize-none px-6 py-3'
+                className='bg-light rounded-main px-fl-1.5 py-fl-0.75 grow resize-none'
               />
             </div>
           </div>
