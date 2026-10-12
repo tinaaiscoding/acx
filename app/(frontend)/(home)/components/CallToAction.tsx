@@ -23,7 +23,7 @@ const CallToAction = () => {
         className='u-container py-section-main text-light'
       >
         <div className='p-fl-5 flex flex-col items-center gap-(--size--3-5rem)'>
-          <div className='flex w-[771px] flex-col gap-(--size--2rem) text-center'>
+          <div className='flex w-[771px] flex-col gap-(--size--3-5rem) text-center'>
             <h2 className='u-text-style-h1'>
               Powering a sustainable future for your business
             </h2>

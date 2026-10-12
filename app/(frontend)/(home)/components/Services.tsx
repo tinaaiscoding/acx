@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <section id='home-services'>
       <div className='u-container py-section-main'>
-        <div className='flex flex-col gap-(--size--5rem)'>
+        <div className='flex flex-col gap-(--size--6rem)'>
           <div id='home-services-heading'>
             <h2 className='u-text-style-main mb-fl-2 uppercase'>What we do</h2>
 
