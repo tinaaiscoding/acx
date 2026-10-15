@@ -22,7 +22,7 @@ export const contactSchema = z.object({
     .max(254, 'Email address is too long.'),
 
   enquiryType: z.enum(
-    ['greenPower', 'carbonOffset', 'other'],
+    ['GreenPower', 'Carbon Offset', 'Other'],
     {
       error: 'Please select an enquiry type.',
     }

@@ -131,13 +131,13 @@ const ContactForm = () => {
                 <option value='' disabled hidden>
                   Select a service
                 </option>
-                <option value='greenPower' className='text-dark'>
+                <option value='GreenPower' className='text-dark'>
                   GreenPower
                 </option>
-                <option value='carbonOffset' className='text-dark'>
+                <option value='Carbon Offset' className='text-dark'>
                   Carbon Offset
                 </option>
-                <option value='other' className='text-dark'>
+                <option value='Other' className='text-dark'>
                   Other
                 </option>
               </select>
