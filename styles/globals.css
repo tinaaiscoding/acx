@@ -154,3 +154,13 @@ body {
   text-wrap: pretty;
   display: flow-root;
 }
+
+@media screen and (max-width: 56.5rem) {
+  #navigation-bar {
+    display: none;
+  }
+
+  #navigation-bar-mobile {
+    display: block !important;
+  }
+}
