@@ -9,7 +9,7 @@ import ACXlogo from '@/public/images/acxrgyle-logo.png';
 
 import NavigationLinks from './NavigationLinks';
 import SmoothScrollButton from './SmoothScrollButton';
-import NavigationMobileMenu from './footer/NavigationMobileMenu';
+import NavigationMobileMenu from './NavigationMobileMenu';
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);

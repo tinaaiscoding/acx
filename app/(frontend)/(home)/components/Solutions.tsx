@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Solutions = () => {
   return (
     <section id='home-solutions'>
@@ -30,7 +32,9 @@ const Solutions = () => {
                 </p>
               </div>
 
-              <button className='btn-primary'>Learn More</button>
+              <Link className='btn-primary' href='/greenpower'>
+                Learn More
+              </Link>
             </div>
 
             <div className='bg-brand-light rounded-main p-fl-2.5 flex flex-col items-start gap-(--size--2-5rem)'>
@@ -45,7 +49,9 @@ const Solutions = () => {
                 </p>
               </div>
 
-              <button className='btn-primary'>View Projects</button>
+              <Link className='btn-primary' href='/carbonoffset'>
+                View Projects
+              </Link>
             </div>
           </div>
         </div>

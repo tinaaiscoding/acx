@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import SmoothScrollButton from '../SmoothScrollButton';
+import SmoothScrollButton from './SmoothScrollButton';
 
 type Props = {
   onLinkClick: () => void;
