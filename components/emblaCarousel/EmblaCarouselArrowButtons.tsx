@@ -60,8 +60,6 @@ export const PrevButton = (props: PropType) => {
   const { children, disabled, ...restProps } = props;
   const buttonDisabled = ' embla__button--disabled';
 
-  console.log({ disabled });
-
   return (
     <button
       title='Previous'
@@ -69,8 +67,8 @@ export const PrevButton = (props: PropType) => {
         disabled ? buttonDisabled : '',
       )}
       type='button'
-      disabled={disabled}
       {...restProps}
+      disabled={Boolean(disabled)}
     >
       <svg
         className='embla__button__svg'
@@ -93,13 +91,13 @@ export const NextButton = (props: PropType) => {
 
   return (
     <button
-      title='Next'
-      className={'embla__button embla__button--next'.concat(
-        disabled ? buttonDisabled : '',
-      )}
-      type='button'
-      disabled={disabled}
       {...restProps}
+      title='Next'
+      className={`embla__button embla__button--next${
+        disabled ? buttonDisabled : ''
+      }`}
+      type='button'
+      disabled={Boolean(disabled)}
     >
       <svg
         className='embla__button__svg'

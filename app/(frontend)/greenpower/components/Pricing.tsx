@@ -36,7 +36,7 @@ const Pricing = () => {
                   src={placeholder_graph}
                   alt='graph'
                   placeholder='blur'
-                  quality={100}
+                  quality={75}
                 />
               </div>
             </div>
@@ -45,7 +45,7 @@ const Pricing = () => {
                 src={placeholder_graph_legend}
                 alt='graph'
                 placeholder='blur'
-                quality={100}
+                quality={75}
               />
             </div>
           </div>

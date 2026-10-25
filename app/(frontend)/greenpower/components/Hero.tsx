@@ -10,7 +10,7 @@ const Hero = () => {
           src={bgImage}
           alt='three windmills in an open, yellow flower field'
           placeholder='blur'
-          quality={100}
+          quality={75}
           fill
           sizes='100vw'
           className='object-cover object-[25%_13%]'

@@ -30,8 +30,9 @@ const Services = () => {
                 src={cardImage1}
                 alt='one tree'
                 placeholder='blur'
-                quality={100}
+                quality={75}
                 fill
+                sizes='(max-width: 390px) 100vw, 390px'
                 className='z-0 scale-180 object-cover object-bottom'
               />
 
@@ -51,8 +52,9 @@ const Services = () => {
                 src={cardImage2}
                 alt='landscape of fields'
                 placeholder='blur'
-                quality={100}
+                quality={75}
                 fill
+                sizes='(max-width: 390px) 100vw, 390px'
                 className='z-0 scale-180 object-cover object-bottom'
               />
 
@@ -72,8 +74,9 @@ const Services = () => {
                 src={cardImage3}
                 alt='hands joined together holding a plant'
                 placeholder='blur'
-                quality={100}
+                quality={75}
                 fill
+                sizes='(max-width: 390px) 100vw, 390px'
                 className='z-0 object-cover object-bottom'
               />
 

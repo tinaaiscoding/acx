@@ -15,8 +15,9 @@ const Project = ({ image, grade, name, text }: Props) => {
           src={image}
           alt={name}
           placeholder='blur'
-          quality={100}
+          quality={75}
           fill
+          sizes='(max-width: 504px) 100vw, 504px'
           className='object-cover'
         />
       </div>

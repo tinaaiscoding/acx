@@ -1,13 +1,23 @@
+import Image from 'next/image';
+
+import ACXlogo from '@/public/images/acxrgyle-logo.png';
+
 import NavigationLinks from '../NavigationLinks';
 import ContactForm from './ContactForm';
 
 const Footer = () => {
   return (
-    <footer id='contact-section' className='u-container h-[837px] py-fl-3.5'>
+    <footer id='contact-section' className='u-container py-fl-3.5 h-[837px]'>
       <div className='flex h-full justify-between'>
         <div className='flex h-full flex-1 flex-col justify-between'>
           <div className='flex flex-col gap-(--size--2-5rem)'>
-            <div>logo</div>
+            <div>
+              <Image
+                src={ACXlogo}
+                alt='GreenPower Renewable Electricity accreditation logo'
+                className='h-auto w-full max-w-[300px] self-start'
+              ></Image>
+            </div>
 
             <p>
               G.02 109 Burwood Road
