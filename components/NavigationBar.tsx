@@ -34,8 +34,10 @@ const NavigationBar = () => {
       <div id='navigation-bar' className='fixed inset-x-0 top-0 z-100'>
         <div className='u-container'>
           <nav
-            className={`bg-light mt-fl-2 px-fl-1.25 py-fl-0.75 grid w-full grid-cols-3 items-center rounded-full transition-transform duration-300 ease-in-out ${
-              shouldHideNavbar ? '-translate-y-[calc(100%+2rem)]' : 'translate-y-0'
+            className={`bg-light-faded mt-fl-2 px-fl-1.25 py-fl-0.75 hover:bg-light grid w-full grid-cols-3 items-center rounded-full shadow-md transition-all duration-300 ease-in-out ${
+              shouldHideNavbar
+                ? '-translate-y-[calc(100%+2rem)]'
+                : 'translate-y-0'
             }`}
           >
             <div>
@@ -68,8 +70,10 @@ const NavigationBar = () => {
         <div className='u-container'>
           <div ref={navMobileMenuRef}>
             <nav
-              className={`bg-light mt-fl-2 px-fl-1.25 py-fl-0.75 mb-fl-0.25 flex w-full items-center justify-between rounded-full transition-transform duration-300 ease-in-out ${
-                shouldHideNavbar ? '-translate-y-[calc(100%+2rem)]' : 'translate-y-0'
+              className={`bg-light-faded mt-fl-2 px-fl-1.25 py-fl-0.75 hover:bg-light mb-fl-0.25 flex w-full items-center justify-between rounded-full shadow-md transition-all duration-300 ease-in-out ${
+                shouldHideNavbar
+                  ? '-translate-y-[calc(100%+2rem)]'
+                  : 'translate-y-0'
               }`}
             >
               <div>
