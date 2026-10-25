@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import SmoothScrollButton from '@/components/SmoothScrollButton';
 
 import bgImage from '@/public/images/home-cta.jpg';
 
@@ -33,7 +34,12 @@ const CallToAction = () => {
               are ready to help you build a cleaner, more resilient future.
             </p>
           </div>
-          <button className='btn-secondary'>Contact Now</button>
+
+          <SmoothScrollButton
+            name=' Contact Now'
+            section='contact-section'
+            className='btn-secondary'
+          />
         </div>
       </div>
     </section>
